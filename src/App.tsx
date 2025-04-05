@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import io from "socket.io-client";
 
 // Establecer la conexión con el servidor Socket.IO
-const socket = io("http://localhost:8080");
+const socket = io("https://i12-app-view-kevin-05646a538217.herokuapp.com/");
 
 const Admin: React.FC = () => {
   const [message, setMessage] = useState("");
